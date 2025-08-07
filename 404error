@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 Not Found</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: #f8f8f8;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .error-container {
+      text-align: center;
+      padding: 40px 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    }
+    .error-container h1 {
+      font-size: 5rem;
+      margin: 0 0 10px 0;
+      color: #e74c3c;
+    }
+    .error-container h2 {
+      margin: 0 0 20px 0;
+      font-size: 2rem;
+    }
+    .error-container p {
+      margin-bottom: 24px;
+      color: #666;
+    }
+    .error-container a {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #3498db;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .error-container a:hover {
+      background: #217dbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>Sorry, the page you are looking for does not exist.<br>
+    You may have mistyped the address or the page may have moved.</p>
+    <a href="index.html">Go to Homepage</a>
+  </div>
+</body>
+</html>
